@@ -36,7 +36,6 @@
 body {
   color: var(--gray30);
   font-family: 'Roboto', sans-serif;
-  /* font-family: charter; */
 }
 
 a {
@@ -79,9 +78,17 @@ pre {
 
 .hero {
   background: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url('../images/patron-1.png');
-  /* background-repeat: no-repeat;
-  background-position: center; */
-  /* background-size: cover; */
   height: 350px;
+}
 
+h3::before {
+  content: '-';
+}
+
+h3::after {
+  content: '';
+  width: 32px;
+  height: 4px;
+  background-color: var(--gray30);
+  display: inline-block;
 }
