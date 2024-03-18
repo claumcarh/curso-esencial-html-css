@@ -67,13 +67,8 @@ h1 {
   margin-bottom: 16px;
 }
 
-/* h1 ~ p {
-  margin-bottom: 64px;
-} */
-
 hr {
   margin: 64px 0;
-  /* background: red; */
 }
 
 h2 {
@@ -110,6 +105,20 @@ blockquote span {
 
 blockquote span::before {
   content: '-';
+}
+
+.main {
+
+}
+
+.wrapper {
+  width: 902px;
+  margin: auto;
+}
+
+.main-content {
+   background: #ffffff;
+   padding: 20px;
 }
 
 .hero {
@@ -161,5 +170,3 @@ blockquote span::before {
   background-color: var(--gray30);
   display: inline-block;
 }
-
-/* Counters. Se remplaza el content por un counter */
